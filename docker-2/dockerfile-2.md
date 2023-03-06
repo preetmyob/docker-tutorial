@@ -1,6 +1,6 @@
  
  ```shell
- dotnet publish -c release 
+dotnet publish -c release 
 dotnet bin/release/net6.0/publish/myhelloworld.dll
 docker build .  --tag my-hello-world:v1
 docker image ls
